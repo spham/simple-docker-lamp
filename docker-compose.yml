@@ -11,7 +11,7 @@ services:
       MYSQL_USER: default
       MYSQL_PASSWORD: default
     ports:
-      - "8336:3306"
+      - "8081:3306"
   web:
     image: php:7.2.2-apache
     container_name: php_web
